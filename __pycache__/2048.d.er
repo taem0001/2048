@@ -1,0 +1,9 @@
+##[pylyzer] failed d:\programmering\2048\2048.py 1724455286 608
+.logic = pyimport "logic"
+
+.gameMatrix: Never
+
+
+
+
+

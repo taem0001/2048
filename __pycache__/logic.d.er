@@ -1,0 +1,10 @@
+##[pylyzer] failed d:\programmering\2048\logic.py 1724455150 1675
+.random: Never
+
+.initGame: |M <: Mutizable|() -> List!(?M.MutType!, _: Nat)
+.shuffleLeft: (matrix: Never) -> Dict!(_: GenericDict + {{Type_v_global_7: Int | (Type_v_global_7 >= 0) and (Type_v_global_7 <= pred(4))}: List!({Type_v_global_788: Obj | (Type_v_global_788 == 0) or (Type_v_global_788 != 0)}, 2)})
+.shuffleRight: (matrix: Never) -> Dict!(_: GenericDict + {{Type_v_global_7: Int | (Type_v_global_7 >= 0) and (Type_v_global_7 <= pred(4))}: List!({Type_v_global_828: Obj | (Type_v_global_828 == 0) or (Type_v_global_828 != 0)}, 1)})
+.shuffleUp: |K :> Int, Self <: Indexable(?K, ?V), V :> ?M.MutType!, M <: Mutizable|(matrix: Self) -> Self
+.shuffleDown: |Self <: Indexable(?K, Never), K: Type|(matrix: Self) -> Self
+.addNumbers: (matrix: Obj, dir: Obj) -> Never
+.getCol: |K :> {Type_v_global_7: Int | (Type_v_global_7 >= 0) and (Type_v_global_7 <= pred(4))}, K: Type, Self :> List!(?V, 2), Self <: Indexable(?K, ?V), V: Type, K :> Int, Self <: Indexable(?K, ?V), V :> ?M.MutType!, M <: Mutizable|(matrix: Self, i: K) -> Self
